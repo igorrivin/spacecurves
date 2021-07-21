@@ -1,6 +1,8 @@
 import numpy as np
 from sortedcontainers import SortedKeyList
 from itertools import cycle
+from .utils import *
+from .plcurves import *
 
 def intersections(seg1, seg2):
     """return the intersection point, if any, between the projections of two (oriented) segments in space. 

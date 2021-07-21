@@ -1,6 +1,6 @@
 import numpy as np
 from .projections import *
-from sortedcontainer import SortedKeyList
+from sortedcontainers import SortedKeyList
 
 class Segment:
     def __init__(self, beg, end):
